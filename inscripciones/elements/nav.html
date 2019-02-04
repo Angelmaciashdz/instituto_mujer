@@ -1,0 +1,191 @@
+
+  
+
+  <!-- SideBar -->
+  <section class="full-box cover dashboard-sideBar">
+    <div class="full-box dashboard-sideBar-bg btn-menu-dashboard"></div>
+    <div class="full-box dashboard-sideBar-ct">
+      <!--SideBar Title -->
+      <div class="full-box text-uppercase text-center text-titles dashboard-sideBar-title">
+        H. AYUNTAMIENTO ECATZINGO <i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
+      </div>
+      <!-- SideBar User info -->
+      <div class="full-box dashboard-sideBar-UserInfo">
+        <figure class="full-box">
+          <img src="..\..\public\imagenes\logos\volcan.jpeg" alt="UserIcon">
+          <figcaption class="text-center text-titles"><?php echo "Administrador " . $_SESSION['id_usuario']; ?></figcaption>
+        </figure>
+        <ul class="full-box list-unstyled text-center">
+          <li>
+            <a href="#!" class="btn-exit-system">
+              <i class="zmdi zmdi-power"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- SideBar Menu -->
+      <ul class="list-unstyled full-box dashboard-sideBar-Menu">
+        <li>
+          <a href="../inicio">
+            <i class="zmdi zmdi-home zmdi-hc-fw"></i> Inicio
+          </a>
+        </li>
+        <li>
+          <a href="#!" class="btn-sideBar-SubMenu">
+            <i class="zmdi zmdi-case zmdi-hc-fw"></i> Administración <i class="zmdi zmdi-caret-down pull-right"></i>
+          </a>
+          <ul class="list-unstyled full-box">
+            <li>
+              <a href="../personas"><i class="zmdi zmdi-account zmdi-hc-fw"></i> Personas</a>
+            </li>
+            <li>
+              <a href="../programas"><i class="zmdi zmdi-card zmdi-hc-fw"></i> Programas</a>
+            </li>
+            <li>
+              <a href="?c=Personas&a=Nuevo"><i class="zmdi zmdi-account-add zmdi-hc-fw"></i> Registrar Persona</a>
+            </li>
+            <li>
+              <a href="?c=Programa&a=Nuevo"><i class="zmdi zmdi-card zmdi-hc-fw"></i> Registrar Programa</a>
+            </li>
+            <!--<li>
+              <a href="formulario_programas.php"><i class="zmdi zmdi-plus-square zmdi-hc-fw"></i> Registrar Programa</a>
+            </li>-->
+          </ul>
+        </li>
+        <!--<li>
+          <a href="#!" class="btn-sideBar-SubMenu">
+            <i class="zmdi zmdi-account-add zmdi-hc-fw"></i> Users <i class="zmdi zmdi-caret-down pull-right"></i>
+          </a>
+          <ul class="list-unstyled full-box">
+            <li>
+              <a href="admin.php"><i class="zmdi zmdi-account zmdi-hc-fw"></i> Admin</a>
+            </li>
+            <li>
+              <a href="teacher.php"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Teacher</a>
+            </li>
+            <li>
+              <a href="student.php"><i class="zmdi zmdi-face zmdi-hc-fw"></i> Student</a>
+            </li>
+            <li>
+              <a href="representative.php"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i> Representative</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#!" class="btn-sideBar-SubMenu">
+            <i class="zmdi zmdi-card zmdi-hc-fw"></i> Payments <i class="zmdi zmdi-caret-down pull-right"></i>
+          </a>
+          <ul class="list-unstyled full-box">
+            <li>
+              <a href="registration.php"><i class="zmdi zmdi-money-box zmdi-hc-fw"></i> Registration</a>
+            </li>
+            <li>
+              <a href="payments.php"><i class="zmdi zmdi-money zmdi-hc-fw"></i> Payments</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#!" class="btn-sideBar-SubMenu">
+            <i class="zmdi zmdi-shield-security zmdi-hc-fw"></i> Settings School <i class="zmdi zmdi-caret-down pull-right"></i>
+          </a>
+          <ul class="list-unstyled full-box">
+            <li>
+              <a href="school.php"><i class="zmdi zmdi-balance zmdi-hc-fw"></i> School Data</a>
+            </li>
+          </ul>
+        </li>-->
+        <li>
+          <a href="?c=Programa&a=GeneraPdf" class="btn-sideBar-SubMenu">
+            <i class="zmdi zmdi-file zmdi-hc-fw"></i> PDF
+          </a>
+        </li>
+        <li>
+          <a href="?c=Programa&a=GeneraXLs" class="btn-sideBar-SubMenu">
+            <i class="zmdi zmdi-file zmdi-hc-fw"></i> Excel
+          </a>
+    </div>
+  </section>
+
+  <!-- Content page-->
+  <section class="full-box dashboard-contentPage">
+    <!-- NavBar -->
+    <nav class="full-box dashboard-Navbar">
+      <ul class="full-box list-unstyled text-right">
+        <li class="pull-left">
+          <a href="#!" class="btn-menu-dashboard"><i class="zmdi zmdi-more-vert"></i></a>
+        </li>
+        <!--<li>
+          <a href="#!" class="btn-Notifications-area">
+            <i class="zmdi zmdi-notifications-none"></i>
+            <span class="badge">7</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" onclick="abrir2()" class="btn-Notifications-area">
+            <i class="zmdi zmdi-facebook"></i>
+            <span class="badge"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="btn-Notifications-area">
+            <i class="zmdi zmdi-instagram"></i>
+            <span class="badge"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#" onclick="abrir()" class="btn-Notifications-area">
+            <i class="glyphicon glyphicon-envelope"></i>
+            <span class="badge"></span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#!" class="btn-search">
+            <i class="zmdi zmdi-search"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#!" class="btn-modal-help">
+            <i class="zmdi zmdi-help-outline"></i>
+          </a>
+        </li>-->
+        <li>
+          <a href="#" onclick="abrir3()" class="">
+            <i class="zmdi zmdi-link"></i>
+            <span class="badge"></span>
+          </a>
+        </li>               
+        <li>
+          <a href="#" onclick="abrir2()" class="">
+            <i class="zmdi zmdi-facebook"></i>
+            <span class="badge"></span>
+          </a>
+        </li>       
+        <li>
+          <a href="#" onclick="abrir()" class="">
+            <i class="glyphicon glyphicon-envelope"></i>
+            <span class="badge"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#" onclick="abrir()" class="">
+            <i class="glyphicon glyphicon-envelope-open"></i>
+            <span class="badge"></span>
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+    <!-- Content page -->
+    <!--<div class="container-fluid">
+      <div class="page-header">
+        <h1 class="text-titles"><i class="zmdi zmdi-timer zmdi-hc-fw"></i> Administration <small>Period</small></h1>
+      </div>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas reiciendis tempora voluptatum eius porro ipsa quae voluptates officiis sapiente sunt dolorem, velit quos a qui nobis sed, dignissimos possimus!</p>
+    </div>-->
+
+
+
+
+
+    

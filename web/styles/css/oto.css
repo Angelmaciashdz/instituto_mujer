@@ -1,0 +1,184 @@
+/* CSS de los encabezados*/
+div.nav-wrapper{height: 120px;
+	background: #FEF9FC; 
+}
+
+#nav2 {
+	height: 90px;
+	margin-top: 56px;
+	background: gray;
+}
+a.brand-logo{
+	color:  #707070
+}
+
+img.img1{
+	 margin-left: 15px; 
+	 width:110px; 
+	 height: 110px; 
+	 margin-top: 5px;
+	  border-radius: 8px;
+}
+img.img2{
+	margin-left: 35px; 
+	width:160px; 
+	height: 110px;
+	 border-radius: 8px;
+}
+img.img3{
+	margin-right: 35px; 
+	width:160px; 
+	height: 110px;
+	margin-top: 5px;
+	 border-radius: 8px;
+}
+img.img4{margin-right:13px;
+	width:110px; 
+	height: 110px;
+	border-radius: 8px;
+}
+a.letra{
+	color:  #FEF9FC; margin-top: 10px;
+	
+}
+
+/* CSS de la página de inicio*/
+#slid1{
+background: #FEF9FC;
+}
+div.col{
+	background: #FEF9FC; 
+}
+h5.pub{
+color:  #707070;
+margin-left: 20px;
+}
+
+p.pub2{
+	text-align: center;
+margin-top: -16px;
+color: #707070;opacity:2;
+font-size: 13px;
+}
+span.card-title{
+	background: #FEF9FC; opacity: 0.9;
+	height: 10px;
+
+}
+img.imag{
+	width: 70px;
+	height: 200px;
+}
+
+#ver{
+	margin-left: 23px;
+margin-top: -30px;
+color:  #707070;
+text-align: center;
+font-size: 20px;
+}
+
+div.card-content{
+	text-align: justify;
+	width: 350px;
+	max-height: 200px;
+	white-space:normal;
+	overflow: hidden;
+}
+
+
+
+
+/* CSS de la página de Acerca*/
+#mis{
+	background: #FEF9FC;
+	width: 1311px;
+	margin-left: 20px;
+
+}
+#text{
+	text-align: justify;
+	font-family: 'Arial';
+	font-size:15px;
+}
+
+#text2{
+
+	text-align: center;
+	font-family: 'Arial';
+	font-size:18px;
+}
+
+#ac_title{
+
+	text-align: justify;
+	font-family: 'Arial';
+	font-size:24px;
+}
+/* CSS de la página de Galeria de actividades*/
+div.collection{
+color:  #707070;
+}
+
+h5.gal{
+color:  #707070;
+}
+
+/* CSS de la página de cursos*/
+
+h5.cursos{
+color:  #707070;
+text-align: center;
+}
+
+h5.header{
+	background: white;
+}
+img.imag2{
+	height: 150px;
+}
+div.card-content2{
+	text-align: justify;
+	width: 300px;
+	max-height: 200px;
+	white-space:normal;
+	overflow: hidden;
+}
+
+p.pub3{
+	text-align: center;
+margin-top: -16px;
+color:#707070;
+font-size: 13px;
+}
+#card-title2{
+	background:#FEF9FC; opacity: 0.9;
+	height: 10px;
+
+}
+#titulo_p{
+	margin-left: 15px;
+	margin-top: 10px;
+	color:  #707070;
+}
+#titulos{
+	margin-left: 15px;
+	margin-top: -10px;
+	color:  #707070;
+}
+
+#texto{
+	margin-top: 5px;
+}
+#.opt{
+		margin-top: -8px;
+		color:  #707070;
+}
+
+/* CSS de la página de contacto*/
+
+#redes{
+	color:  #FEF9FC; margin-top: 10px;
+	
+}
+
